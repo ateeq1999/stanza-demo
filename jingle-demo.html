@@ -135,7 +135,6 @@
                     if (track.kind === 'video') {
                         const vid = document.getElementById('remoteVideo');
                         vid.srcObject = stream;
-                        vid.muted = true;
                         vid.play();
                     }
                 });
